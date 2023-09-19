@@ -9,6 +9,7 @@ h1 {
   color: black;
   font-family: sans-serif;
   text-align: center;
+
 }
 
 body {
@@ -18,9 +19,13 @@ body {
   text-align:left;
 }
 
+a:hover {
+  font-size: 1.5em; 
+}
+
 .text-center {
   text-align: center;
-  padding: 10px 20%;
+  padding: 15px 20%;
 }
 
 .text-next-to-img {
@@ -47,7 +52,6 @@ body {
   from {transform: scale(1)}
   to {transform: scale(1.5)}
 }
-
 
 .element-with-background {
   height: 100px;
