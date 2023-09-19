@@ -5,7 +5,7 @@
 }
 
 h1 {
-  background-color: crimson;
+  background-color: whitesmoke;
   color: black;
   font-family: sans-serif;
   text-align: center;
@@ -13,8 +13,51 @@ h1 {
 
 body {
   margin: 0;
-  background-color: whitesmoke;
+  background-color: white;
   font-family: sans-serif;
   text-align:left;
 }
 
+.text-center {
+  text-align: center;
+  padding: 10px 20%;
+}
+
+.text-next-to-img {
+  display: grid;
+  grid-template-columns: 60% auto;
+  gap: 1rem; 
+  margin-top: 20px;
+}
+
+.text-next-to-img > .text {
+  border: 1px solid red;
+  padding: 1rem 2rem;
+}
+
+.text-next-to-img > img {
+  width: 80%;
+}
+
+.scale {
+  animation: scale-anim 1s both ease-in-out infinite alternate;
+}
+
+@keyframes scale-anim {
+  from {transform: scale(1)}
+  to {transform: scale(1.5)}
+}
+
+
+.element-with-background {
+  height: 100px;
+  background-image: url("https://www.wagrati.eu/media/images/flagge-peru-2000x1333.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
