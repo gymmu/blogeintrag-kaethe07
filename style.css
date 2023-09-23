@@ -86,6 +86,7 @@ p.box {
   border: 2px solid black;
   border-top-style: dotted;
   border-bottom-style: dotted;
+  box-shadow: 3px 1px 3px 3px darkcyan;
   font-family: sans-serif;
   margin-left: 550px; 
   padding: 10px;
